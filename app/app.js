@@ -1,18 +1,17 @@
-export default class TestService extends Service {
-  serviceHasUnreachableCode() {
+function blah(_exports) {
+  _exports.myFunction = myFunction;
+
+  function myFunction() {
+    if (!false) {
+      return;
+    }
+
     if (true) {
       return;
     }
+
     return;
-    const num = 1;
+    var num = 1;
     return num;
-  } 
-}
-export function myFunction() {
-  if (true) {
-    return;
   }
-  return;
-  const num = 1;
-  return num;
 }
